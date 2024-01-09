@@ -29,6 +29,11 @@
       <version>6.0.0</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>3.0.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -41,6 +46,8 @@
           <version>11.0.18</version>
 
       </plugin>
+
+
     </plugins>
   </build>
 </project>
